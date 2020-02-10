@@ -1,0 +1,11 @@
+li{
+    border: green solid 2px;
+}
+
+#programming{
+    background: green;
+}
+
+.completed{
+    text-decoration: line-through;
+}
