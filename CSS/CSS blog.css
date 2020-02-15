@@ -1,0 +1,56 @@
+/* Grey border around body;20 px border;explicit width. 
+        Border color = #bdc3c7
+        Date color = #3498db
+        h2 color = #2c3e50
+        font= source sans pro 
+        left border turned on for first paragraph. Paragraphs must be aligned. 
+        Letter spacing for date; further spacing. 
+        HR styles. Thin grey line*/
+
+
+body{
+    width: 60%;
+    margin: 0 auto;
+    border: 20px solid #bdc3c7;
+    word-spacing: 2px;
+}
+
+h2{
+    width: 60%;
+    margin: auto auto;
+    color: #2c3e50;
+    font-family: Source Sans Pro;
+    margin-bottom: 15px;
+}
+
+div{
+    width: 60%;
+    margin: auto auto;
+    font-family: Source Sans Pro;
+    margin-bottom: 15px;
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9em;
+
+}
+
+p{
+    width: 60%;
+    margin: auto auto;
+    margin-bottom: 20px;
+}
+
+p:nth-of-type(1) {
+    border-left: 5px solid #bdc3c7;
+}
+
+p:nth-of-type(3) {
+    border-left: 5px solid #bdc3c7;
+}
+
+
+hr {
+    color: #bdc3c7;
+    margin: 5% 20%;
+}
