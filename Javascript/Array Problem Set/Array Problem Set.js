@@ -48,3 +48,13 @@ function max(arr){
 }
 
 max([1,2,3,4]);
+
+var someObject = {
+    friends: [
+        {name: "Malfoy"},
+        {name: "Crabbe"},
+        {name: "Goyle"}
+    ],
+    color: "baby blue",
+    isEvil: true
+}
