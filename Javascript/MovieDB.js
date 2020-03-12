@@ -7,35 +7,36 @@
 var movieDB = [
     {
         movieName: "Prisoners",
-        rating: "4.0 stars",
+        rating: 4.0,
         hasWatched: true
     },
     {
         movieName: "The Great Hack",
-        rating: "3.5 stars",
+        rating: 3.5,
         hasWatched: false
     },
     {
         movieName: "Nightcrawler",
-        rating: "4.0 stars",
+        rating: 4.0,
         hasWatched: true
     },
     {
         movieName: "American Psycho",
-        rating: "3.9 stars",
+        rating: 3.9,
         hasWatched: false
     }
 ]; 
 
 function printMovie(array) {
     for(i = 0; i < movieDB.length; i++) {
-        if(movieDB[i].hasWatched === true) {
-            console.log("You have watched " + "\"" + movieDB[i].movieName + "\"" + " - " + movieDB[i].rating);
+        if(movieDB[i].hasWatched) {
+            console.log("You have watched " + "\"" + movieDB[i].movieName + "\"" + " - " + movieDB[i].rating + " stars");
         }
         else {
-            console.log("You have not seen " + "\"" + movieDB[i].movieName + "\"" + " - " + movieDB[i].rating);
+            console.log("You have not seen " + "\"" + movieDB[i].movieName + "\"" + " - " + movieDB[i].rating + " stars");
         };
     };
 };
 
 printMovie(movieDB);
+
