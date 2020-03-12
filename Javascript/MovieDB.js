@@ -27,7 +27,7 @@ var movieDB = [
     }
 ]; 
 
-function printMovie(array) {
+function printMovie(movieArray) {
     for(i = 0; i < movieDB.length; i++) {
         if(movieDB[i].hasWatched) {
             console.log("You have watched " + "\"" + movieDB[i].movieName + "\"" + " - " + movieDB[i].rating + " stars");
@@ -39,4 +39,3 @@ function printMovie(array) {
 };
 
 printMovie(movieDB);
-
