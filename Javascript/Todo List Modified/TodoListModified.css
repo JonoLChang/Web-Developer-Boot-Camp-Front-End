@@ -1,0 +1,6 @@
+.selected {
+    color: green;
+}
+.clicked {
+    text-decoration: line-through;
+}
